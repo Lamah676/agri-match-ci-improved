@@ -1,0 +1,14 @@
+{
+  "name": "agri-match-backend",
+  "version": "1.0.0",
+  "description": "🌾 Plateforme agricole - Backend FastAPI",
+  "type": "module",
+  "scripts": {
+    "dev": "uvicorn app.main:app --reload",
+    "start": "uvicorn app.main:app --host 0.0.0.0 --port 8000",
+    "test": "pytest -v",
+    "test:watch": "pytest -v --looponfail",
+    "migrate": "alembic upgrade head",
+    "seed": "python -m app.seed"
+  }
+}
