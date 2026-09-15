@@ -1,0 +1,116 @@
+# Environment
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+.env.production
+
+# Frontend (Next.js)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.turbo/
+frontend/.cache/
+frontend/dist/
+
+# Frontend (Dependencies)
+npm-debug.log*
+npm-error.log*
+yyarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pnpm-error.log*
+lerna-debug.log*
+.pnp
+.pnp.js
+
+# Backend (Python)
+backend/venv/
+backend/env/
+backend/.venv/
+backend/.env.local
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.egg-info/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.coverage
+backend/htmlcov/
+backend/dist/
+backend/build/
+backend/*.pyc
+backend/**/*.pyc
+backend/.ruff_cache/
+
+# Database
+*.sqlite3
+*.sqlite
+*.db
+*.postgres
+instance/
+
+# Uploads
+backend/uploads/
+frontend/public/uploads/
+
+# IDE / Editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Testing
+coverage/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.hypothesis/
+
+# Build
+dist/
+build/
+*.egg
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Temporary
+.tmp/
+.temp/
+*.tmp
+*.bak
+
+# Docker
+.docker/
+.dockerignore
+
+# CI/CD
+.github/workflows/*.log
+
+# Production
+.env.production
+.env.production.local
+secrets/
